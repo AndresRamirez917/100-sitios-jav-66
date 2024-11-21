@@ -1,0 +1,67 @@
+//mainheader
+#mainheader {
+    .navbar {
+        .logo {
+            padding-top: 2rem;
+            display: block;
+            text-align: center;
+            margin: 0 auto;
+        }
+        ul {
+            font-size: small;
+            display: block;
+            margin: 1rem;
+            li {
+                text-align: center;
+            }
+        }
+        .container {
+            display: block;
+        }
+    }
+}
+
+//showcase
+#showcase {
+    .showcase-row {
+        display: block;
+        text-align: center;
+       
+        img {
+            display: none;
+        }
+        .showcase-text {
+            p {
+                display: block;
+                margin: 0 auto;
+                width: 70%;
+            }
+        }
+    }
+}
+
+//menu
+#menu {
+    .menu-row {
+        display: block;
+        text-align: center;
+       
+    }
+    :nth-child(2) {
+        margin-top: 2rem;
+    }
+}
+
+//about
+#about {
+    .about-row {
+        display: block;
+        text-align: justify;
+        margin-bottom: 3rem;
+    }
+}
+
+//book
+#book {
+
+}
