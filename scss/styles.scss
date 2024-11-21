@@ -76,11 +76,19 @@ img {
 .button-1 {
     background: rgb(243, 62, 62);
     border-bottom-right-radius: 50px;
+    &:hover {
+        background: #404040a3;
+        color: #000;
+    }
 }
 .button-2 {
     background: #404040;
     border-top-left-radius: 50px;
     padding: 10px 20px;
+    &:hover {
+        background: rgba(243, 62, 62, 0.552);
+        color: #000;
+    }
 }
 
 //mainheader
