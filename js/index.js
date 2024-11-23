@@ -44,7 +44,7 @@ async function getData() {
             
             <div class="flexbox">
                 <img src="${element.strMealThumb}" alt="">
-                <h3>Premium Main Dish</h3>
+                <h3>${element.strMeal}</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et eleifend non eget placerat parturient purus. Auctor nam vulputate consequat molestie vel. Mauris massa facilisis proin imperdiet justo.</p>
             </div>
             
