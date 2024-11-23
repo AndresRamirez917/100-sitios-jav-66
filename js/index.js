@@ -34,3 +34,23 @@ swal({
 const emailValido = (email) => {
 return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email.value)
 }
+
+async function getData() {
+    const result = await fetch('https://www.themealdb.com/api/json/v1/1/search.php?f=a');
+    const desserts = await result.json();
+    console.log(desserts);
+    desserts.meals.forEach(element => {
+        const flexbox = document.createRange().createContextualFragment(`
+            
+            <div class="flexbox">
+                <img src="${element.strMealThumb}" alt="">
+                <h3>Premium Main Dish</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et eleifend non eget placerat parturient purus. Auctor nam vulputate consequat molestie vel. Mauris massa facilisis proin imperdiet justo.</p>
+            </div>
+            
+            `)
+            const menu_row = document.querySelector('.menu-row');
+            menu_row.append(flexbox)
+    });
+}
+getData()
