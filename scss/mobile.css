@@ -37,6 +37,21 @@
   margin-top: 2rem;
 }
 
+#testimonials h2 {
+  text-align: center;
+}
+#testimonials .testimonials-row {
+  display: block;
+  margin: 0 auto;
+}
+#testimonials .testimonials-row .flexbox {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+#testimonials .testimonials-row .flexbox img {
+  width: 50%;
+}
+
 #about .about-row {
   display: block;
   text-align: justify;

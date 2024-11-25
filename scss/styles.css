@@ -197,6 +197,37 @@ img {
   margin: 0 auto;
 }
 
+#testimonials {
+  width: 90%;
+  margin: 0 auto;
+}
+#testimonials h2 {
+  font-size: 2.5rem;
+  font-weight: 300;
+  text-align: center;
+  margin: 2rem;
+  text-transform: uppercase;
+}
+#testimonials .testimonials-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+#testimonials .testimonials-row .flexbox {
+  width: 33%;
+  margin: 0 auto;
+  margin: 0 auto;
+  text-align: center;
+}
+#testimonials .testimonials-row .flexbox img {
+  width: 50%;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+#testimonials .testimonials-row .flexbox h3 {
+  margin-bottom: 1rem;
+}
+
 #about {
   width: 80%;
   margin: 0 auto;

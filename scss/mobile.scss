@@ -52,6 +52,26 @@
     }
 }
 
+//testimonials
+#testimonials {
+   
+        h2 {
+            text-align: center;
+        }
+        .testimonials-row {
+            display: block;
+            margin: 0 auto;
+            .flexbox {
+                width: 100%;
+                margin-bottom: 2rem;
+                img {
+                    width: 50%;
+                }
+            }
+        }
+    
+}
+
 //about
 #about {
     .about-row {
