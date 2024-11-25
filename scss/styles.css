@@ -226,6 +226,7 @@ img {
 }
 #testimonials .testimonials-row .flexbox i {
   color: yellow;
+  margin-bottom: 1rem;
 }
 #testimonials .testimonials-row .flexbox i .fa-solid {
   display: flex;
