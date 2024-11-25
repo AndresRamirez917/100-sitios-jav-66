@@ -221,6 +221,12 @@ img {
                 border-radius: 50%;
                 margin-bottom: 1rem;
             }
+            i {
+                color: yellow;
+                .fa-solid {
+                    display: flex;
+                }
+            }
             h3 {
                 margin-bottom: 1rem;
             }

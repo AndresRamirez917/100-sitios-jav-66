@@ -60,17 +60,20 @@ async function getTestimonials(){
     const users = await result.json();
     console.log(users)
     users.results.forEach(element => {
+        let stars = '';
+        for (let i = 0; i < 5; i++) {
+            stars += '<i class="fa-solid fa-star"></i>';
+        }
         const flexbox = document.createRange().createContextualFragment(`
-            
             <div class="flexbox">
                 <img src="${element.picture.large}" alt="">
                 <h3>${element.name.first} ${element.name.last}</h3>
+                ${stars}
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et eleifend non eget placerat parturient purus. Auctor nam vulputate consequat molestie vel. Mauris massa facilisis proin imperdiet justo.</p>
             </div>
-            
-            `)
-            const testimonials_row = document.querySelector('.testimonials-row');
-            testimonials_row.append(flexbox)
-    })
+        `);
+        const testimonials_row = document.querySelector('.testimonials-row');
+        testimonials_row.append(flexbox);
+    });
 }
-getTestimonials()
+getTestimonials();

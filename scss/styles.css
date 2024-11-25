@@ -224,6 +224,12 @@ img {
   border-radius: 50%;
   margin-bottom: 1rem;
 }
+#testimonials .testimonials-row .flexbox i {
+  color: yellow;
+}
+#testimonials .testimonials-row .flexbox i .fa-solid {
+  display: flex;
+}
 #testimonials .testimonials-row .flexbox h3 {
   margin-bottom: 1rem;
 }
